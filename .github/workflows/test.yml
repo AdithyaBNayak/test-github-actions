@@ -1,9 +1,9 @@
 name: Falcon Container Sensor Pull
 
 on:
-  schedule:
-    # Runs every 5 minutes
-    - cron: '*/1 * * * *'
+  # schedule:
+  #   # Runs every 5 minutes
+  #   - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
